@@ -38,7 +38,7 @@ export const NewProductTab = () => {
     const [tabIndex, setTabIndex] = useState(getHashIndex);
     const methods = useForm({
         criteriaMode: 'all',
-        mode: 'onChange',
+        mode: 'onChange', 
         resolver: yupResolver(productFormSchema),
     });
 
